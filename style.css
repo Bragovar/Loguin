@@ -1,7 +1,5 @@
 /* Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
 
-Imágenes en Unsplash: https://unsplash.com/@xps
-Logo Dell: https://worldvectorlogo.com/logo/dell-1
 
 */
 
@@ -45,4 +43,25 @@ body {
     background-image: url('img-2.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.btn-primary {
+    color:blanchedalmond;
+    background-color:#ff6600
+    ;
+    border-color:black
+}
+
+.btn-primary:hover {
+    color: #212529;
+    background-color:#ff6600 ;
+    border-color:white
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+}
+input::-webkit-input-placeholder {
+    color: red;
 }
